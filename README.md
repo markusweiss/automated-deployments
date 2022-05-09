@@ -24,7 +24,6 @@ git push heroku master
 ```
 
 
-
 Build without code changes:
 
 ```bash
@@ -33,7 +32,11 @@ Build without code changes:
  git push heroku master
 ```
 
+If you get an error try:
 
+```bash
+git push heroku HEAD:master
+```
 
 ### Enviroment:
 
